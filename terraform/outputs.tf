@@ -61,3 +61,7 @@ output "lbname" {
 output "databasename" {
   value = module.database-n01580173.dbname
 }
+
+output "lb_fqdn" {
+  value = module.loadbalancer-n01580173.lb_ip
+}
